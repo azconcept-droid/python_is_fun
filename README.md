@@ -13,3 +13,4 @@
 - [Garbage collector](https://alx-intranet.hbtn.io/rltoken/CimKF3MlfErabvZWtFxHjg)
 - [Python Interpreter](https://alx-intranet.hbtn.io/rltoken/a5z3uSkiby1Xw679cFiw1Q)
 - [Python bytecode](https://alx-intranet.hbtn.io/rltoken/oJ2v8bVCLZmAowJ7WXLzJg)
+- [Python applications](https://www.edureka.co/blog/python-applications/)
