@@ -17,8 +17,8 @@ def replace_in_list(my_list, idx, element):
         return (my_list)
     if idx > len(my_list):
         return (my_list)
-    index = range(0, len(my_list))
-    for i, item in zip(index, my_list):
+    index = range(len(my_list))
+    for i in index:
         if idx == i:
             my_list[i] = element
     return (my_list)

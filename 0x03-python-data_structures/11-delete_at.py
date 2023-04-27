@@ -14,7 +14,7 @@ def delete_at(my_list=[], idx=0):
     if idx < 0 or idx > len(my_list):
         return my_list
 
-    for index, item in zip(range(0, len(my_list)), my_list):
+    for index in range(len(my_list)):
         if idx == index:
             del my_list[idx]
 

@@ -5,10 +5,8 @@ def print_matrix_integer(matrix=[[]]):
         matrix: the matrix to print
     """
 
-    if matrix == [[]]:
-        print(end='')
     for row in matrix:
         for col in row:
-            print(col, end=' ')
+            print(str(col) + ' ', end='')
         print()
     

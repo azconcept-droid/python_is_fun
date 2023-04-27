@@ -15,6 +15,6 @@ def max_integer(my_list=[]):
     # Sort list in ascending order without changing the original list
     sorted_list = sorted(my_list)
     # The last integer in sorted_list is the biggest
-    max = sorted_list[len(my_list) - 1]
+    max = sorted_list[-1]
 
     return max

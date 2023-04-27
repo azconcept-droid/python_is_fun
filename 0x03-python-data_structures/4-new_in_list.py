@@ -19,8 +19,8 @@ def new_in_list(my_list, idx, element):
         return (new_list)
     if idx > len(my_list):
         return (new_list)
-    index = range(0, len(my_list))
-    for i, item in zip(index, new_list):
+    index = range(len(my_list))
+    for i in index:
         if idx == i:
             new_list[i] = element
     return (new_list)
