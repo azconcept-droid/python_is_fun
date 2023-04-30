@@ -10,7 +10,7 @@ def safe_print_list(my_list=[], x=0):
         The real number of elements printed
     """
 
-    count = 0
+    """count = 0
     try:
         for i in range(x):
             print(my_list[i], end='')
@@ -18,6 +18,16 @@ def safe_print_list(my_list=[], x=0):
     except (IndexError, TypeError):
         pass
     finally:
-        print()
+        print()"""
+    counter = 0
+    for i in range(x):
+        try:
+            print("{}".format(my_list[i]), end="")
+            counter += 1
+        except (IndexError, ValueError):
+            break
+    print()
+    return counter
+
 
     return count
